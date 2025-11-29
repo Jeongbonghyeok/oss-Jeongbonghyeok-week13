@@ -35,7 +35,7 @@ export default function AddPage() {
     return;
   }
 
-  // 🔥 1단계: 전체 리스트 GET해서 학번 중복 체크
+
   const xhrGet = new XMLHttpRequest();
   xhrGet.open("GET", mockURL);
 
