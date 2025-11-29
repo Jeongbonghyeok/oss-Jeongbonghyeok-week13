@@ -1,6 +1,30 @@
 .App {
   text-align: center;
+  background-color:  rgb(253, 232, 205);
 }
+
+
+
+
+.btn{
+  background-color: rgb(205, 172, 129);
+  border: 1px solid rgb(205, 172, 129);
+}
+
+.btn:hover{
+  background-color: rgb(192, 161, 121);
+  border: 1px solid rgb(192, 161, 121);
+}
+
+.btn-primary:active{
+  background-color: rgb(169, 143, 108);
+  border: 1px solid rgb(169, 143, 108);
+}
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +60,4 @@
     transform: rotate(360deg);
   }
 }
+
